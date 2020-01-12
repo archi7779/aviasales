@@ -23,6 +23,7 @@ export const RadioBWrapper = styled.div`
 `;
 
 export const OutPutWindowWrapper = styled.div`
+    width: 500px;
     .OutPut-button {
         width:50%;
         height: 50px;
