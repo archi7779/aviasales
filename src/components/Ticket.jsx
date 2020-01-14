@@ -46,11 +46,12 @@ export default class Ticket extends React.Component {
 
   render() {
     const {
-      ticketInfo: { price, segments },
+      ticketInfo: { price, segments, carrier },
     } = this.props;
     const formatPrice = price.toLocaleString('ru', {
       useGrouping: true,
     });
+    const urlLogo = `//pics.avs.io/99/36/${carrier}.png`;
     const wayForward = segments[0];
     const wayBack = segments[1];
 
@@ -58,7 +59,7 @@ export default class Ticket extends React.Component {
       <div className="mainTicketWrapper">
         <Card
           title={`${formatPrice} Р`}
-          extra={<img alt="s7Logo" src="./S7%20Logo.png" />}
+          extra={<img alt="s7Logo" src={urlLogo} />}
           style={{ width: 500 }}
         >
           <div className="ticketWrapper">
