@@ -23,7 +23,6 @@ export const RadioBWrapper = styled.div`
 `;
 
 export const OutPutWindowWrapper = styled.div`
-    width: 500px;
     .OutPut-button {
         width:50%;
         height: 50px;
@@ -34,6 +33,7 @@ export const OutPutWindowWrapper = styled.div`
         justify-content: center;
         align-content: center;
         margin-top: -15px;
+        width: 500px;
     } 
     .mainTicketWrapper {
         padding-bottom: 20px;

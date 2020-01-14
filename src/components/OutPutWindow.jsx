@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Button, Spin } from 'antd';
-import { uniqueId } from 'lodash';
 import PropTypes from 'prop-types';
 import * as actions from '../actions';
 import Ticket from './Ticket';
@@ -84,7 +83,11 @@ class SearchWindow extends React.Component {
           filteredTickets
             .slice(0, 5)
             .map(ticket => (
-              <Ticket ticketInfo={ticket} key={uniqueId()} className="OutPut-ticket" />
+              <Ticket
+                ticketInfo={ticket}
+                key={`${ticket.price}${ticket.carrier}${ticket.segments[0].duration}${ticket.segments[1].duration}`}
+                className="OutPut-ticket"
+              />
             ))}
       </OutPutWindowWrapper>
     );

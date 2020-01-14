@@ -3,12 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e67ea831-2355-4619-a5a0-789dd8be1392" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OutPutWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OutPutWindow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styledComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styledComponents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/functionsToUse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/functionsToUse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="block19" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +83,9 @@
       <updated>1578623978363</updated>
       <workItem from="1578623981863" duration="25461000" />
       <workItem from="1578738276360" duration="21327000" />
-      <workItem from="1578847974348" duration="3173000" />
+      <workItem from="1578847974348" duration="15772000" />
+      <workItem from="1578929251541" duration="45000" />
+      <workItem from="1579004678440" duration="1341000" />
     </task>
     <servers />
   </component>
