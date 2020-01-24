@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67ea831-2355-4619-a5a0-789dd8be1392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Artur\Desktop\Портфолио\block19\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +88,7 @@
       <workItem from="1579007025921" duration="43000" />
       <workItem from="1579007087938" duration="3000" />
       <workItem from="1579007112273" duration="602000" />
-      <workItem from="1579855065775" duration="570000" />
+      <workItem from="1579855065775" duration="1234000" />
     </task>
     <servers />
   </component>
@@ -108,10 +108,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578624935319" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1579855269959">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1579856303963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579855269959" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579856303963" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1578828282731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
