@@ -1,1 +1,1 @@
-gh pages: https://archi7779.github.io/aviasales/
+gh pages: https://archi7779.github.io/aviaseils
