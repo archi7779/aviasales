@@ -54,24 +54,26 @@ class SearchWindow extends React.Component {
     } = this.props;
     return (
       <OutPutWindowWrapper>
-        <Button
-          className="OutPut-button"
-          onClick={() => {
-            handleSortBClick('price');
-          }}
-          type={sortWith === 'price' ? 'primary' : ''}
-        >
-          Дешевый
-        </Button>
-        <Button
-          className="OutPut-button"
-          onClick={() => {
-            handleSortBClick('speed');
-          }}
-          type={sortWith === 'speed' ? 'primary' : ''}
-        >
-          Быстрый
-        </Button>
+        <div>
+          <Button
+            className="OutPut-button"
+            onClick={() => {
+              handleSortBClick('price');
+            }}
+            type={sortWith === 'price' ? 'primary' : ''}
+          >
+            Дешевый
+          </Button>
+          <Button
+            className="OutPut-button"
+            onClick={() => {
+              handleSortBClick('speed');
+            }}
+            type={sortWith === 'speed' ? 'primary' : ''}
+          >
+            Быстрый
+          </Button>
+        </div>
         {ticketsStatus === 'failure' && <div>404 not found contact admin</div>}
         {ticketsStatus === 'requested' && (
           <div className="loaderWrapper">

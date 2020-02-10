@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card } from 'antd';
 import { format } from 'date-fns';
 import PropTypes from 'prop-types';
+import { StyledTicket } from './styledComponents';
 
 export default class Ticket extends React.Component {
   constructor(props) {
@@ -57,11 +57,7 @@ export default class Ticket extends React.Component {
 
     return (
       <div className="mainTicketWrapper">
-        <Card
-          title={`${formatPrice} Р`}
-          extra={<img alt="s7Logo" src={urlLogo} />}
-          style={{ width: 500 }}
-        >
+        <StyledTicket title={`${formatPrice} Р`} extra={<img alt="s7Logo" src={urlLogo} />}>
           <div className="ticketWrapper">
             <span className="greyText">{`${wayForward.origin}-${wayForward.destination}`}</span>
 
@@ -91,7 +87,7 @@ export default class Ticket extends React.Component {
 
             <span className="blackText">{this.getTrasactionsABR(wayBack.stops)}</span>
           </div>
-        </Card>
+        </StyledTicket>
       </div>
     );
   }

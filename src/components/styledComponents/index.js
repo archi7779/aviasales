@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Card } from 'antd';
 
 export const AppWrapper = styled.div`
   display: flex;
@@ -6,6 +7,8 @@ export const AppWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  width: 100%;
+  padding: 0 20px;
   background-color: #e5e5e5;
 `;
 
@@ -15,18 +18,32 @@ export const RadioBWrapper = styled.div`
   width: 232px;
   background-color: #fff;
   height: 252px;
-  margin-right: 20px;
+  margin-top: 20px;
   .RadioBItem {
     padding-top: 18px;
     padding-left: 18px;
   }
 `;
 
+export const StyledTicket = styled(Card)`
+  width: 500px;
+  @media (max-width: 505px) {
+    width: 100%;
+  }
+`;
 export const OutPutWindowWrapper = styled.div`
+    margin: 0 20px;
+    display:flex;
+     @media (max-width: 505px) {
+         margin: 0;  
+     } 
+    flex-direction: column;
+    justify-content: center;
     .OutPut-button {
         width:50%;
         height: 50px;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .OutPut-loader {
         display:flex;
@@ -62,7 +79,7 @@ export const OutPutWindowWrapper = styled.div`
 
 export const MainLogoWrapper = styled.div`
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   margin-top: 50px;
 `;
 
