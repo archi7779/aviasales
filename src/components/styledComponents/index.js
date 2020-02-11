@@ -34,8 +34,10 @@ export const StyledTicket = styled(Card)`
 export const OutPutWindowWrapper = styled.div`
     margin: 0 20px;
     display:flex;
+    width: 500px;
      @media (max-width: 505px) {
          margin: 0;  
+         width:100%;
      } 
     flex-direction: column;
     justify-content: center;
@@ -50,7 +52,10 @@ export const OutPutWindowWrapper = styled.div`
         justify-content: center;
         align-content: center;
         margin-top: -15px;
-        width: 100%;
+        width: 500px;
+        @media (max-width: 505px) {
+            width: 100%;
+         }
     } 
     .mainTicketWrapper {
         padding-bottom: 20px;
