@@ -50,7 +50,7 @@ export const OutPutWindowWrapper = styled.div`
         justify-content: center;
         align-content: center;
         margin-top: -15px;
-        width: 500px;
+        width: 100%;
     } 
     .mainTicketWrapper {
         padding-bottom: 20px;
